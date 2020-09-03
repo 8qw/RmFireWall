@@ -13,15 +13,15 @@ RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數�
 <ul>
  <li>Linux
   <ul>
-    <li>Ubuntu 20.04(x64)</li>
-    <li>Centos 8(x64)</li>
+    <li>Ubuntu 18.04 (x64) Over</li>
+    <li>Centos 8.0 (x64) Over</li>
   </ul>
  </li>
 
  <li>Windows
   <ul>
-    <li>Windows Server 2016(x64) Over</li>
-    <li>Windows 8(x64) Over</li>
+    <li>Windows Server 2016 (x64) Over</li>
+    <li>Windows 8 (x64) Over</li>
   </ul>
  </li>
 
