@@ -1,12 +1,14 @@
 ## Description
 
-RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數據包在傳出之前都會通過 "TLS 1.3、DTLS 1.2" 加密。對於 "2.6.0.0 Version" 使用 "EUDP" 加密 "UDP" ,因爲就算開啓 "不强自息" 模式,在困苦艱難的環境也會出現短暫的斷流。[RmFireWall 主頁](https://github.com/8qw/RmFireWall)
+RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數據包在傳出之前都會通過 "TLS 1.3、DTLS 1.2" 加密。對於 "2.6.0.0 Version" 使用 "EUDP" 加密 "UDP" ,因爲就算開啓 "不强自息" 模式,在困苦艱難的環境也會出現短暫的斷流。
 
 ### Documentation
 
 [幫助文檔](https://github.com/8qw/RmFireWall/wiki)
 
 ### Platforms
+
+[下載](https://github.com/8qw/RmFireWall/releases)
 
 <ul>
  <li>Linux
@@ -62,8 +64,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 Have fun,
 
