@@ -48,7 +48,7 @@ RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數�
 ### Config Server
 
 ```markdown
-RmFireWall Server TCP
+# RmFireWall Server TCP
 
 root@host: tar -xJ -f RmFireWall_linux_server_tcp-X64-Release.tar.xz
 root@host: cd RmFireWall_linux_server_tcp-X64-Release
@@ -61,6 +61,9 @@ Load Default File [default.tpcf]
 Read Successful
 Run Status:0
 Ok
+
+# RmFireWall Server UDP
+'red'
 
 # Bulleted
 - List
