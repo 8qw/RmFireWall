@@ -48,13 +48,21 @@ RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數�
 ### Config Server
 
 ```markdown
-Syntax highlighted code block
+RmFireWall Server TCP
 
-# Header 1
-## Header 2
-### Header 3
+root@host: tar -xJ -f RmFireWall_linux_server_tcp-X64-Release.tar.xz
+root@host: cd RmFireWall_linux_server_tcp-X64-Release
+root@host: chmod +x ./start.sh
+root@host: ./start.sh
+root@host: nohup: appending output to 'nohup.out'
+[Enter]
+root@host: cat nohup.out
+Load Default File [default.tpcf]
+Read Successful
+Run Status:0
+Ok
 
-- Bulleted
+# Bulleted
 - List
 
 1. Numbered
