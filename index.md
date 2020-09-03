@@ -37,7 +37,7 @@ RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數�
   </ul>
  </li>
  
- <li>Iphone
+ <li>IPhone
   <ul>
    <li>沒有</li>
   </ul>
@@ -48,25 +48,34 @@ RmFireWall 是真全局代理的流量加密軟體。全部的 "TCP、UDP" 數�
 ### Config Server
 
 ```markdown
-Syntax highlighted code block
+# RmFireWall Server TCP
+root@host: tar -xJ -f RmFireWall_linux_server_tcp-X64-Release.tar.xz
+root@host: cd RmFireWall_linux_server_tcp-X64-Release
+root@host: chmod +x ./start.sh
+root@host: ./start.sh
+root@host: nohup: appending output to 'nohup.out'
+[Enter]
+root@host: cat nohup.out
+Load Default File [default.tpcf]
+Read Successful
+Run Status:0
+Ok
 
-# Header 1
-## Header 2
-### Header 3
+# RmFireWall Server UDP
+root@host: tar -xJ -f RmFireWall_linux_server_udp-X64-Release.tar.xz
+root@host: cd RmFireWall_linux_server_udp-X64-Release
+root@host: chmod +x ./start.sh
+root@host: ./start.sh
+root@host: nohup: appending output to 'nohup.out'
+[Enter]
+root@host: cat nohup.out
+Load Default File [default.upcf]
+Read Successful
+Run Status:0
+Ok
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-
-Have fun,
 
 RmFireWall Group.
 
